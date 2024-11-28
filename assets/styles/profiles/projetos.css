@@ -5,7 +5,7 @@
     flex-direction: column;
 }
 
-.title-projetos h2{
+.title-projetos h2 {
     color: #FFFFFF;
     font-size: 30px;
     font-weight: 800;
@@ -67,7 +67,6 @@
     opacity: 40%;
 }
 
-
 #contatos {
     width: 100%;
     padding: 24px 16%;
@@ -82,8 +81,24 @@
 }
 
 .infos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.telefone {
     color: #C5C5C5;
     font-size: 19px;
     font-weight: 700;
     text-align: start;
+}
+
+.sociais a {
+    color: #C5C5C5;
+    font-size: 35px;
+    margin-left: 15px;
+    transition: all .3s ease;
+}
+
+.sociais a:hover {
+    color: #8000FF;
 }
